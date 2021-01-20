@@ -171,6 +171,8 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   fill: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .header .icon {
