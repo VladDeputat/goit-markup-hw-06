@@ -721,6 +721,8 @@ button {
   transform: translate(-50%, -50%);
   background-color: #ffffff;
 
+  padding: 40px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
@@ -734,6 +736,47 @@ button {
   position: absolute;
   top: 8px;
   right: 8px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  outline: solid 1px tomato;
+}
+
+.form-heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.form-label {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.button-send-form {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 56px;
+  transition: background 250ms var(--hover-function);
 }
 
 /* .is-hidden {
