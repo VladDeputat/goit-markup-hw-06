@@ -788,7 +788,6 @@ button {
 }
 
 .text-area-form {
-  display: block;
   height: 120px;
   padding: 12px 16px;
   resize: none;
@@ -827,8 +826,6 @@ button {
   cursor: pointer;
   display: block;
   position: relative;
-  margin-left: 37px;
-  margin-bottom: 30px;
 }
 
 .checkbox-label:before {
@@ -868,8 +865,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 56px;
-
-  margin-left: 125px;
+  margin-top: 30px;
 
   transition: background 250ms var(--hover-function);
 }
@@ -877,6 +873,13 @@ button {
 .button-send-form:hover,
 .button-send-form:focus {
   background: #188ce8;
+}
+
+.checkbox-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .is-hidden {

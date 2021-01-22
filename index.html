@@ -449,17 +449,17 @@
             <li>
               <label class="form-label">
                 <span class="input-title">Комментарий</span>
-                <textarea class="text-area-form" placeholder="Введите текст" name="comment"> </textarea>
+                <textarea class="text-area-form" name="comment" placeholder="Введите текст"></textarea>
               </label>
             </li>
           </ul>
-
-          <input type="checkbox" id="policy" value="policy-accept" class="policy-checkbox visually-hidden" required />
-          <label for="policy" class="checkbox-label">
-            Соглашаюсь с рассылкой и принимаю <a class="conditions-link" href="#">Условия договора</a>
-          </label>
-
-          <button type="submit" class="button-send-form">Отправить</button>
+          <div class="checkbox-button-wrapper">
+            <input type="checkbox" id="policy" value="policy-accept" class="policy-checkbox visually-hidden" required />
+            <label for="policy" class="checkbox-label">
+              Соглашаюсь с рассылкой и принимаю <a class="conditions-link" href="#">Условия договора</a>
+            </label>
+            <button type="submit" class="button-send-form">Отправить</button>
+          </div>
         </form>
       </div>
     </div>
